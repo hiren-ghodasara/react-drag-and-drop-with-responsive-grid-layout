@@ -125,7 +125,7 @@ class App extends Component {
                                 ref={provided.innerRef}
                                 {...provided.draggableProps}
                                 {...provided.dragHandleProps}
-                                className="col-6 col-md-4 col-lg-3"
+                                className="col-6 col-md-5 col-lg-4"
                               >
                                 <img
                                   alt="img-alr"

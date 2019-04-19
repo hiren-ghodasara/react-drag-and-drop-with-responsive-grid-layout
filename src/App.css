@@ -14,7 +14,8 @@ li {
   padding-left: 20%;
   padding-right: 20%;
   height: 100%;
-  border: 2px solid #f8f9fa;
+  border: 2px solid #e2e2ff;
+  /* box-shadow: 10px -4px 18px 2px rgba(226,226,255,0.48); */
   min-height: 600px;
 }
 
@@ -33,8 +34,8 @@ li {
   float: left;
 }
 .resize-image li {
-  min-height: 180px;
-  max-height: 180px;
+  min-height: 210px;
+  max-height: 210px;
 }
 .resize-image {
   padding: 0 !important;
