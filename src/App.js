@@ -27,7 +27,7 @@ class App extends Component {
     itemsCol1: initialState.list1,
     itemsCol2: initialState.list2
   };
-  
+
   id2List = {
     droppable1: "itemsCol1",
     droppable2: "itemsCol2"
@@ -60,7 +60,7 @@ class App extends Component {
     return (
       <div className="App">
         <nav className="navbar navbar-dark bg-dark text-center">
-          <span className="navbar-brand mb-0 h1 mx-auto">React Drag And Drop With Responsive Grid Layout</span>
+          <span className="navbar-brand mb-0 h1 mx-auto">React Drag And Drop With Responsive Grid Layout (React Beautiful DND)</span>
         </nav>
         <div className="container-fluid">
           <DragDropContext onDragEnd={this.onDragEnd}>
