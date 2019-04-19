@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-drag-and-drop-with-responsive-grid-layout/precache-manifest.52c4adc59b02955099286c00accd0bea.js"
+  "/react-drag-and-drop-with-responsive-grid-layout/precache-manifest.bdcf8d8f459cb732de9ee270e2dba7f5.js"
 );
 
 workbox.clientsClaim();
