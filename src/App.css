@@ -1,3 +1,4 @@
+@import "~antd/dist/antd.css";
 .navbar {
   background-color: #563d7c !important;
 }
@@ -43,4 +44,32 @@ li {
 }
 .img-zom {
   zoom: 30%;
+}
+.crop-ele {
+  min-height: 500px;
+}
+.preview-ele {
+  min-height: 500px;
+}
+.ant-modal-body {
+  padding: 0px 0px 0px 0xp;
+  text-align: center;
+}
+.file-up {
+  position: relative;
+  overflow: hidden;
+  color: #7952b3;
+  border-color: #7952b3;
+}
+.file-up:hover {
+  color: #fff;
+  background-color: #7952b3;
+  border-color: #7952b3;
+}
+.file-up input {
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
 }
